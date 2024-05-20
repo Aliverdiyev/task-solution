@@ -1,0 +1,19 @@
+1. Write a program to display the multiplication table of a given integer.
+2. Write a program to calculate factorial of given number.
+3. Write a program to take n numbers from user and calculate their average.
+4. Write a program to calculate the sum of first 10 natural number.
+5. Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+6. Write a Java program to create and display a unique three-digit number using 1, 2, 3, 4. Also count how many three-digit numbers there are.
+Sample output:
+123
+124
+...
+431
+432.
+Total number of the three-digit-number is 24
+7. 1)Print the following patterns using loop :
+   a.
+   *
+   **
+   ***
+   ****
