@@ -1,12 +1,24 @@
 package do_while;
 
+import java.util.Scanner;
+
+/*
+4 numbers are entered into the method: a, b, c, d, if the numbers are entered in ascending order, return true, otherwise false.
+ */
 public class Task10 {
     public static void main(String[] args) {
-        Task10 sequence = new Task10();
-        System.out.println(sequence.increasing(6, 2, 3, 4));
+        int[] numbers = new int[4];
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter number");
+        numbers[0] = sc.nextInt();
+        numbers[1] = sc.nextInt();
+        numbers[2] = sc.nextInt();
+        numbers[3] = sc.nextInt();
     }
 
-    public boolean increasing(int a, int b, int c, int d) {
-        return a < b && a < c && a < d && b < c && b < d && c < d;
+
+    public static boolean isAscending(int[] arr) {
+        // Check if each number is greater than or equal to the previous one
+        return arr[0] <= arr[1] && arr[1] <= arr[2] && arr[3] <= arr[4];
     }
 }
