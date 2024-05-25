@@ -11,7 +11,7 @@ Sample output:
 431
 432
 Total number of the three-digit-number is 24
- */
+*/
 public class ThreeDigitNumbers {
     public static void main(String[] args) {
         int i, j, k;
