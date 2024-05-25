@@ -2,7 +2,10 @@ package for_loop;
 
 import java.util.Scanner;
 
-public class Task1 {
+/*
+Write a program to display the multiplication table of a given integer
+*/
+public class MultiplicationTable {
     public static void main(String[] args) {
         int x, y;
         Scanner sc = new Scanner(System.in);
