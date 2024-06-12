@@ -1,8 +1,8 @@
-package practise;
+package simple_algorithms;
 
-public class Bubble {
+public class BubbleSort {
     public static void main(String[] args) {
-        Bubble sort = new Bubble();
+        BubbleSort sort = new BubbleSort();
         int[] barr = {12, 13, 16, 15, 22, 20, 17};
         int n = barr.length;
         sort.bubbleSort(barr, n);

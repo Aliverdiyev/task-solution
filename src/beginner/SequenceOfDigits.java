@@ -1,9 +1,10 @@
 package beginner;
+
 /*
 Write a Java program to break an 123456 into a sequence of digits
 Expected output
 1 2 3 4 5 6
- */
+*/
 public class SequenceOfDigits {
     public static void main(String[] args) {
         int z = 123456;

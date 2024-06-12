@@ -1,4 +1,4 @@
-package practise;
+package strings;
 
 public class S3 {
     public static void main(String[] args) {

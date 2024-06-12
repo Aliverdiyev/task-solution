@@ -3,7 +3,7 @@ package beginner;
 Write a Java program to convert 3456789 minutes into years and days.
 Expected output
 3456789 minutes is approximately 6 years and 210 days
- */
+*/
 public class ConvertMinutesToYearsAndDays {
     public static void main(String[] args) {
         int min = 3456789;
