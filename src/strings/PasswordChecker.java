@@ -2,7 +2,7 @@ package strings;
 
 import java.util.Scanner;
 
-public class Password {
+public class PasswordChecker {
     public static void main(String[] args) {
         int count = 0;
         String password = "java";
