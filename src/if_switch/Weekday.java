@@ -1,8 +1,11 @@
-package ifswitch;
+package if_switch;
 
 import java.util.Scanner;
 
-public class Task10 {
+/*
+Write a program to input week day number and print week day
+*/
+public class Weekday {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -52,5 +55,16 @@ public class Task10 {
             default:
                 System.out.println(dayOfWeek + " not a week day");
         }
+
+// pro
+        System.out.print("Enter a week day number (1-7): ");
+        int dayNum = sc.nextInt();
+        String[] weekdays = {"Invalid", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        if (dayNum >= 1 && dayNum <= 7) {
+            System.out.println("Today is " + weekdays[dayNum]);
+        } else {
+            System.out.println("Invalid week day number. Please enter a number between 1 and 7.");
+        }
+        sc.close();
     }
 }
