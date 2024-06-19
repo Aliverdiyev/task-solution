@@ -2,7 +2,7 @@ package timeobject_10x;
 
 import java.time.*;
 
-public class Time1 {
+public class TimeDemo {
     public static void main(String[] args) {
         LocalDate today = LocalDate.now(); // Represents the current date
         LocalTime currentTime = LocalTime.now(); // Represents the current time
