@@ -1,6 +1,7 @@
 package strings;
 
 import java.util.Scanner;
+
 /*
 Write a program to check whether a character is alphabet or not
 */
